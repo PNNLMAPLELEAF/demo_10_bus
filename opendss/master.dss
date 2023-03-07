@@ -1,0 +1,29 @@
+clear
+
+new Circuit.MAPLE10bus phases=3 bus1=bus_1_230kv basekv=230.0 pu=1.00 angle=0.000 r1=0.0 x1=0.001
+
+Redirect transformers.dss
+Redirect lines_breakers.dss
+Redirect aggregated_der.dss
+Redirect loads.dss
+
+New Generator.Gen1 bus1=bus_1_230kV_gen kV=230 kW=150000 kVA=300000 Xdp=0.27 Xdpp=0.2 H=2 Mode=3 !conventional slow-ramping generator operating in PV mode
+
+
+set voltagebases=[230.0 115.0 34.5 12.47 4.160]
+
+calcv
+!buscoords buscoords.dss
+buscoords buscoords_flipped.dss
+
+solve
+
+
+set MarkPVSystems=true PVMarkerCode=18
+set Markswitches=true SwitchMarkerCode=9
+set MarkRegulators=true RegMarkerCode=15         
+set MarkCapacitors=true CapMarkerCode=38
+set MarkStorage=true StoreMarkerCode=36
+set MarkTransformers=true TransmarkerCode=14
+
+Plot daisy Power Max=1000 dots=n labels=y 1ph=3

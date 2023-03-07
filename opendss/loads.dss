@@ -1,0 +1,17 @@
+new Load.s7_fdr1 phases=3 bus1=bus_7_12_47_f1 conn=d kw=15000 kvar=4000 numcust=1 kv=12.47 model=1
+new Load.s7_fdr2 phases=3 bus1=bus_7_12_47_f2 conn=d kw=8000 kvar=2000 numcust=1 kv=12.47 model=1
+new Load.s7_fdr3 phases=3 bus1=bus_7_12_47_f3 conn=d kw=7000 kvar=2000 numcust=1 kv=12.47 model=1
+new Load.s7_fdr4 phases=3 bus1=bus_7_12_47_f4 conn=d kw=6000 kvar=2000 numcust=1 kv=12.47 model=1
+
+new Load.s8_fdr1 phases=3 bus1=bus_8_12_47_f1 conn=d kw=2000 kvar=600 numcust=1 kv=12.47 model=1
+new Load.s8_fdr2 phases=3 bus1=bus_8_12_47_f2 conn=d kw=9000 kvar=3000 numcust=1 kv=12.47 model=1
+new Load.s8_fdr3 phases=3 bus1=bus_8_12_47_f3 conn=d kw=5000 kvar=1500 numcust=1 kv=12.47 model=1
+
+new Load.s9_fdr1 phases=3 bus1=bus_9_4_f1 conn=d kw=5000 kvar=1000 numcust=1 kv=4.16 model=1
+new Load.s9_fdr2 phases=3 bus1=bus_9_4_f2 conn=d kw=2000 kvar=600 numcust=1 kv=4.16 model=1
+
+new Load.s10_fdr1 phases=3 bus1=bus_10_4_f1 conn=d kw=8000 kvar=3000 numcust=1 kv=4.16 model=1
+new Load.s10_fdr2 phases=3 bus1=bus_10_4_f2 conn=d kw=4000 kvar=1000 numcust=1 kv=4.16 model=1
+
+new Load.s5 phases=3 bus1=bus_5_34_5kv conn=d kw=65000 kvar=20000 numcust=1 kv=34.5 model=1
+new Load.s6 phases=3 bus1=bus_6_34_5kv conn=d kw=60000 kvar=20000 numcust=1 kv=34.5 model=1

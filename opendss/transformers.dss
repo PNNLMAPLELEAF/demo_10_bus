@@ -1,0 +1,31 @@
+new Transformer.xfmr230_115_1 phases=3 windings=2 xhl=3.4 !%reactance  
+~ wdg=1 bus=bus_1_230kv kv=230.0 kva=100000 %r=0.4
+~ wdg=2 bus=bus_3_115kv kv=115.0 kva=100000 %r=0.0
+
+new Transformer.xfmr230_115_2 phases=3 windings=2 xhl=3.6 
+~ wdg=1 bus=bus_2_230kv kv=230.0 kva=100000 %r=0.6
+~ wdg=2 bus=bus_4_115kv kv=115.0 kva=100000 %r=0.0
+
+new Transformer.xfmr115_34_1 phases=3 windings=2 xhl=3.9 
+~ wdg=1 bus=bus_3_115kv kv=115.0 kva=100000 %r=0.15
+~ wdg=2 bus=bus_5_34_5kv kv=34.5 kva=100000 %r=0.0
+
+new Transformer.xfmr115_34_2 phases=3 windings=2 xhl=4.5  
+~ wdg=1 bus=bus_4_115kv kv=115.0 kva=100000 %r=0.16
+~ wdg=2 bus=bus_6_34_5kv kv=34.5 kva=100000 %r=0.0
+
+new Transformer.xfmr34_12_1 phases=3 windings=2 xhl=5.5   
+~ wdg=1 bus=bus_5_34_5kv kv=34.5 kva=100000 %r=0.11
+~ wdg=2 bus=bus_7_12_47kv kv=12.47 kva=100000 %r=0.0
+
+new Transformer.xfmr34_12_2 phases=3 windings=2 xhl=7.0   
+~ wdg=1 bus=bus_5_34_5kv kv=34.5 kva=100000 %r=0.10
+~ wdg=2 bus=bus_8_12_47kv kv=12.47 kva=100000 %r=0.0
+
+new Transformer.xfmr34_4_1 phases=3 windings=2 xhl=17   
+~ wdg=1 bus=bus_6_34_5kv kv=34.5 kva=100000 %r=1.0
+~ wdg=2 bus=bus_9_4kv kv=4.16 kva=100000 %r=0.0
+
+new Transformer.xfmr34_4_2 phases=3 windings=2 xhl=12
+~ wdg=1 bus=bus_6_34_5kv kv=34.5 kva=100000 %r=1.0
+~ wdg=2 bus=bus_10_4kv kv=4.16 kva=100000 %r=0.0

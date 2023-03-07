@@ -1,0 +1,16 @@
+new PVSystem.s7_der_ag1 phases=3 bus1=bus_7_12_47_f1 conn=w kva=3000 kv=12.47 pmpp=2000 irrad=1.00 pf=1.00 vminpu=0.90
+new PVSystem.s7_der_ag3 phases=3 bus1=bus_7_12_47_f3 conn=w kva=3000 kv=12.47 pmpp=2000 irrad=1.00 pf=1.00 vminpu=0.90
+new PVSystem.s7_der_ag4 phases=3 bus1=bus_7_12_47_f4 conn=w kva=1500 kv=12.47 pmpp=1000 irrad=1.00 pf=1.00 vminpu=0.90
+
+new PVSystem.s8_der_ag1 phases=3 bus1=bus_8_12_47_f1 conn=w kva=7000 kv=12.47 pmpp=5000 irrad=1.00 pf=1.00 vminpu=0.90
+new PVSystem.s8_der_ag2 phases=3 bus1=bus_8_12_47_f2 conn=w kva=3000 kv=12.47 pmpp=2000 irrad=1.00 pf=1.00 vminpu=0.90
+new PVSystem.s8_der_ag3 phases=3 bus1=bus_8_12_47_f3 conn=w kva=8000 kv=12.47 pmpp=6000 irrad=1.00 pf=1.00 vminpu=0.90
+
+new PVSystem.s9_der_ag1 phases=3 bus1=bus_9_4_f1 conn=w kva=1500 kv=12.47 pmpp=1000 irrad=1.00 pf=1.00 vminpu=0.90
+new PVSystem.s9_der_ag2 phases=3 bus1=bus_9_4_f2 conn=w kva=3000 kv=12.47 pmpp=2000 irrad=1.00 pf=1.00 vminpu=0.90
+
+new PVSystem.s10_der_ag1 phases=3 bus1=bus_10_4_f1 conn=w kva=7000 kv=12.47 pmpp=5000 irrad=1.00 pf=1.00 vminpu=0.90
+new PVSystem.s10_der_ag2 phases=3 bus1=bus_10_4_f2 conn=w kva=1500 kv=12.47 pmpp=1000 irrad=1.00 pf=1.00 vminpu=0.90
+
+new PVSystem.s5_der_ag phases=3 bus1=bus_5_34_5kv conn=w kva=30000 kv=34.5 pmpp=20000 irrad=1.00 pf=1.00 vminpu=0.90
+
