@@ -143,8 +143,7 @@ class DemoEfficacyApp():
                 
 
                 if load_power:
-                    self.efficacy[timestamp][parent_switch.name] =  total_load_p / (total_load_p - total_der_p)
-                    #self.efficacy[timestamp][parent_switch.name] =  total_load_p / breaker_power[parent_switch.mRID]["p"]
+                    self.efficacy[timestamp][parent_switch.name] =  (total_load_p + total_der_p)/total_load_p
                     
                     self.der[timestamp][parent_switch.name] = total_der_p
                     self.load[timestamp][parent_switch.name] = total_load_p
